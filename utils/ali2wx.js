@@ -1,4 +1,6 @@
-const isDeBugging = 0;
+/**
+ * @name ali小程序=>wx小程序
+ */
 
 // 转换-替换
 function genAst(ast) {
@@ -66,10 +68,6 @@ function unescapeXML(a) {
         return ``;
     });
 
-    // 是否打印看数据
-    if (isDeBugging) {
-        console.log(renderString);
-    }
     return renderString;
 }
 

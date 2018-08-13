@@ -1,3 +1,10 @@
+/**
+ * @name 转换聚合入口
+ * @function transform
+ * @param scrXml 原始xml样式；
+ * @param type 转化方式
+ */
+
 const parse5 = require('parse5');
 let ali2wx = require("./ali2wx.js");
 
