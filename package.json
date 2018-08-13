@@ -1,0 +1,25 @@
+{
+    "name": "mp_xml_transform",
+    "version": "0.0.1",
+    "description": "for mpxml's transforming",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/suuuuuuuuperman/mpXmlTransform.git"
+    },
+    "keywords": [
+        "xmltransform"
+    ],
+    "author": "alfredo chauncey wong",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/suuuuuuuuperman/mpXmlTransform/issues"
+    },
+    "homepage": "https://github.com/suuuuuuuuperman/mpXmlTransform#readme",
+    "dependencies": {
+        "parse5": "^5.0.0"
+    }
+}
