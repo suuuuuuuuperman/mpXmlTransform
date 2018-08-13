@@ -19,7 +19,6 @@ function transform(srcXml, type) {
 
     // 替换更新
     Transfrom.ali2wx.genAst(document);
-    console.log("parseDocument: ", document)
 
     // 序列化
     const targetXml = parse5.serialize(document);
